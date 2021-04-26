@@ -1,0 +1,148 @@
+@import "../fonts/awaken/stylesheet.css";
+@import "../fonts/metropolis/stylesheet.css";
+@import "../fonts/navin/stylesheet.css";
+@import "../fonts/salma/stylesheet.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.container {
+  max-width: 1285px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.col-6 {
+  flex: 1 0 50%;
+}
+
+.col-3 {
+  flex: 1 0 25%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  padding: 10px;
+}
+.header-info__title {
+  font-family: "Awaken", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: #a7a7a7;
+  line-height: 40px;
+}
+.header-info__nav {
+  justify-content: space-between;
+}
+.header-info__nav a {
+  font-family: "Salma", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #a7a7a7;
+  line-height: 35px;
+}
+.header-info__nav a:hover {
+  color: #DEB887;
+}
+
+.face {
+  background-color: #4682B4;
+}
+.face h1 {
+  text-align: center;
+  font-family: "Navin", sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 100px;
+}
+
+.nav {
+  padding: 10px;
+}
+.nav-info__title {
+  justify-content: space-between;
+}
+.nav-info__title a {
+  font-family: "Salma", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #a7a7a7;
+  line-height: 35px;
+}
+.nav-info__title a:hover {
+  color: #DEB887;
+}
+
+.main img {
+  padding: 5px;
+  max-width: 600px;
+}
+.main h2 {
+  padding: 10px;
+  font-family: "Metropolis", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #2F4F4F;
+  line-height: 22px;
+}
+.main p {
+  padding: 10px;
+  font-family: "Navin", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  line-height: 15px;
+}
+
+.footer {
+  background-color: #778899;
+}
+.footer-item {
+  padding: 25px;
+}
+.footer__conf {
+  font-family: "Salma", sans-serif;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  line-height: 25px;
+}
+.footer__text {
+  font-family: "Navin", sans-serif;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  line-height: 20px;
+}

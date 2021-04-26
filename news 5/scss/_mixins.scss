@@ -1,0 +1,23 @@
+@mixin col($number,$gutter: 15px) {
+	width: ($number/12)*100%;
+	padding:0 $gutter;
+}
+
+@mixin text($fz, $fw,$c,$lh) {
+	font-size: $fz;
+	font-weight: $fw;
+	color: $c;
+	line-height: $lh;
+}
+
+@mixin flexCenter() {
+	align-items: center;
+	justify-content: center;
+}
+
+@mixin posCenter($t, $l) {
+	top: $t;
+	left: $l;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}

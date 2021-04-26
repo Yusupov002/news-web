@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Navine Demo SemCond';
+    src: url('NavineDemo-SemiCondensed.woff2') format('woff2'),
+        url('NavineDemo-SemiCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

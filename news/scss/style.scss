@@ -1,0 +1,130 @@
+@import "fonts";
+@import "vars";
+@import "mixins";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body	{
+	min-width: 320px;
+}
+.flex {
+	display: flex;
+}
+.jc-c {
+	justify-content: center;
+}
+.jc-sb {
+	justify-content: space-between;
+}
+.ai-c {
+	align-items: center;
+}
+.container {
+	max-width: 1285px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+.col-6 {
+	flex: 1 0 50%;
+}
+.col-3 {
+	flex: 1 0 25%;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+
+.header {
+	padding: 10px;
+	&-info {
+		&__title {
+			font-family: $awaken;
+			@include text(35px, 400, #a7a7a7, 40px);
+		}
+		&__nav {
+			justify-content: space-between;
+			a {
+				font-family: $salma;
+				@include text(20px, 400, #a7a7a7, 35px);
+				&:hover {
+					color: #DEB887;
+				}
+			}
+		}
+	}
+}
+
+.face {
+	background-color: #4682B4;
+	h1 {
+		text-align: center;
+		font-family: $navi;
+		@include text (55px, 600, #fff, 100px);
+	}
+}
+
+.nav {
+	padding: 10px;
+	&-info {
+		&__title {
+			justify-content: space-between;
+			a {
+				font-family: $salma;
+				@include text(20px, 400, #a7a7a7, 35px);
+				&:hover {
+					color: #DEB887;
+				}
+			}
+		}
+	}
+}
+
+.main {
+	padding: 10px;
+	&__item {
+		transition: all 0.5s;
+		max-width: 250px;
+		max-height: 340px;
+		border: 2px solid #808080;
+		&:hover {
+			background-color: #808080;
+		}
+		img	{
+			padding: 5px;
+			max-width: 240px;
+		}
+		h3 {
+			padding: 0 10px;
+			font-family: $metro;
+			@include text(22px, 400, #2F4F4F, 22px);
+		}
+		p {
+			padding: 0 10px;
+			font-family: $navi;
+			@include text(15px, 400, #000, 15px);
+		}
+	}
+}
+
+.footer {
+	background-color: #778899;
+	&-item {
+		padding: 25px;
+	}
+	&__conf {
+		font-family: $salma;
+		padding: 10px;
+		@include text(20px, 400, #000, 25px);
+	}
+	&__text {
+		font-family: $navi;
+		padding: 10px;
+		@include text(15px, 400, #000, 20px);
+	}
+}
